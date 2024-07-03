@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/bootstrap', function () {
+    return view('bootstrap');
+});
+
+Route::get('/tailwind', function () {
+    return view('tailwind');
 });
